@@ -8,6 +8,7 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceRequestApp.Application.AssemblyInfoInputs.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceRequestApp.Application.AssemblyInfo.cs
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceRequestApp.Application.csproj.CoreCompileInputs.cache
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceRequestApp.Application.sourcelink.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceR.EA11EE33.Up2Date
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\ServiceRequestApp.Application.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Application\obj\Debug\net10.0\refint\ServiceRequestApp.Application.dll

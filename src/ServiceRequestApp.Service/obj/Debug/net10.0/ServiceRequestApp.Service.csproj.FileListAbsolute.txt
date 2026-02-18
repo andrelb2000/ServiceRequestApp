@@ -10,6 +10,7 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\Serv
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceRequestApp.Service.AssemblyInfoInputs.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceRequestApp.Service.AssemblyInfo.cs
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceRequestApp.Service.csproj.CoreCompileInputs.cache
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceRequestApp.Service.sourcelink.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceR.FC3A4E88.Up2Date
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\ServiceRequestApp.Service.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Service\obj\Debug\net10.0\refint\ServiceRequestApp.Service.dll

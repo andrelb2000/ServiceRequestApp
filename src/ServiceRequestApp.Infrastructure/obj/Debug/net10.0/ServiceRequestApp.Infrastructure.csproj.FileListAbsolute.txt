@@ -1,4 +1,5 @@
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\bin\Debug\net10.0\ServiceRequestApp.Infrastructure.deps.json
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\bin\Debug\net10.0\ServiceRequestApp.Infrastructure.runtimeconfig.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\bin\Debug\net10.0\ServiceRequestApp.Infrastructure.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\bin\Debug\net10.0\ServiceRequestApp.Infrastructure.pdb
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\bin\Debug\net10.0\ServiceRequestApp.Application.dll
@@ -10,8 +11,10 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.AssemblyInfoInputs.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.AssemblyInfo.cs
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.sourcelink.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceR.71FCFEE8.Up2Date
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\refint\ServiceRequestApp.Infrastructure.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.pdb
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ServiceRequestApp.Infrastructure.genruntimeconfig.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Infrastructure\obj\Debug\net10.0\ref\ServiceRequestApp.Infrastructure.dll

@@ -5,6 +5,7 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\Servi
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.AssemblyInfoInputs.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.AssemblyInfo.cs
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.csproj.CoreCompileInputs.cache
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.sourcelink.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\refint\ServiceRequestApp.Domain.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Domain\obj\Debug\net10.0\ServiceRequestApp.Domain.pdb
