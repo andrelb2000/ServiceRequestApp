@@ -12,8 +12,8 @@ using ServiceRequestApp.Infrastructure.Data;
 namespace ServiceRequestApp.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260218152341_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260219125940_ThirdCreate")]
+    partial class ThirdCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,9 +27,11 @@ namespace ServiceRequestApp.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("ServiceRequestApp.Domain.Entities.ServiceRequest", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTimeOffset?>("CompletedAt")
                         .HasColumnType("datetimeoffset");
