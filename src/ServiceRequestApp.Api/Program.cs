@@ -21,8 +21,20 @@ builder.Services.AddScoped<IServiceRequestRepository,
                           ServiceRequestRepository>();
 builder.Services.AddScoped<IServiceRequestService,
                           ServiceRequestService>();
+////////////////// Blazer Tests adding for CORS /////
+// In ServiceRequestApp.Api/Program.cs
+builder.Services.AddCors(options => {
+    options.AddDefaultPolicy(policy =>  {
+         policy.WithOrigins("http://localhost:5120")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 
 var app = builder.Build();
+// Before app.UseAuthorization():
+app.UseCors();
 
 app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 

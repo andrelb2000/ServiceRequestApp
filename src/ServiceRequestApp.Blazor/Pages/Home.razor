@@ -1,0 +1,37 @@
+﻿@page "/"
+@inject ServiceRequestApp.Blazor.Services.ServiceRequestApi Api
+
+<h3>Service Requests</h3>
+<button @onclick="Load">Load</button>
+
+@if (items != null) {
+ <ul>
+ @foreach (var item in items) {
+ <li>@item.Title (@item.Status)</li>
+ }
+ </ul>
+}
+
+<h4>Create</h4>
+<input @bind="newTitle" placeholder="Title" />
+<input @bind="newDescription" placeholder="Description" />
+<button @onclick="Create">Create</button>
+
+@code {
+ List<ServiceRequestApp.Blazor.Models.ServiceRequestDto>? items;
+ string newTitle = "";
+ string newDescription = "";
+
+ async Task Load()  {
+ items = await Api.GetAllAsync();
+ }
+
+ async Task Create() {
+	 await Api.CreateAsync(new()  {
+	 Title = newTitle,
+	 Description = newDescription,
+	 Status = 0
+	 });
+ await Load();
+ }
+}
