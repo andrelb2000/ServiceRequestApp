@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="ServiceRequestApp.Maui.MainPage"
+ Title="Service Requests">
+
+ <ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="12">
+	    <Label Text="Service Requests" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+	    <Label Text="Title" FontAttributes="Bold" />
+ 	    <Entry x:Name="TitleEntry" Placeholder="Enter title" BackgroundColor="#F0F0F0" />
+	    <Label Text="Description" FontAttributes="Bold" />
+	    <Entry x:Name="DescriptionEntry" Placeholder="Enter description" BackgroundColor="#F0F0F0" />
+        <HorizontalStackLayout Spacing="10">
+	        <Button Text="Create Request" Clicked="OnCreateClicked" BackgroundColor="#6835CD" TextColor="White" />
+	        <Button Text="Load Requests" Clicked="OnLoadClicked"    BackgroundColor="#231167" TextColor="White" />
+        </HorizontalStackLayout>
+        <Label x:Name="StatusLabel" Text="" TextColor="Gray" FontSize="12" />
+        <CollectionView x:Name="RequestsCollection">
+            <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="6" Spacing="2">
+                            <Label FontAttributes="Bold">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding Id}" />
+                                        <Span Text=" - " />
+                                        <Span Text="{Binding Title}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Text="{Binding Description}" FontSize="13" TextColor="Gray"/>
+                        
+                            <Label FontSize="11" TextColor="#6835CD">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Status: " />
+                                        <Span Text="{Binding Status}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+ </ScrollView>
+</ContentPage>

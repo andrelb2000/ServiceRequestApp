@@ -5,6 +5,7 @@
     <Project Path="src/ServiceRequestApp.Blazor/ServiceRequestApp.Blazor.csproj" />
     <Project Path="src/ServiceRequestApp.Domain/ServiceRequestApp.Domain.csproj" />
     <Project Path="src/ServiceRequestApp.Infrastructure/ServiceRequestApp.Infrastructure.csproj" />
+    <Project Path="src/ServiceRequestApp.Maui/ServiceRequestApp.Maui.csproj" />
     <Project Path="src/ServiceRequestApp.Service/ServiceRequestApp.Service.csproj" />
   </Folder>
 </Solution>
