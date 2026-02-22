@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="ServiceRequestApp.Maui" mvid="0f36526021754ece8523e850f43173c2">
+<api type="debug" assembly-name="ServiceRequestApp.Maui" mvid="b0e6cfc9477c4cdbaca2d0ab6f362bca">
   <java-to-managed>
     <entry java-name="crc64f08c3ff81b3799a1/MainActivity" managed-name="ServiceRequestApp.Maui.MainActivity, ServiceRequestApp.Maui" managed-type-token-id="33554441" />
     <entry java-name="crc64f08c3ff81b3799a1/MainApplication" managed-name="ServiceRequestApp.Maui.MainApplication, ServiceRequestApp.Maui" managed-type-token-id="33554442" />

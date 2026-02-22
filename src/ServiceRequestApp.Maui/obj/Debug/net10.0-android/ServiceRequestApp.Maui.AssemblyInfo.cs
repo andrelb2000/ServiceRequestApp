@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ServiceRequestApp.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+400c3d0cebff49fae659dae70ea1ee448b2c539c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+efa9ad0b83cbf9edc12b956445f81932914158bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ServiceRequestApp.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ServiceRequestApp.Maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
