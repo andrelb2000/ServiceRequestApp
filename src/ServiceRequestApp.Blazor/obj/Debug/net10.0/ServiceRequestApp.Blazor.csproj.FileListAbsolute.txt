@@ -207,9 +207,6 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwro
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.hcmfem957h.wasm
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.rxl58s9t7p.pdb
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\dotnet.a419ic67ma.js
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.66stpp682q.js.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.ld1j2d23tn.wasm.gz
@@ -418,9 +415,6 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwro
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.hcmfem957h.wasm.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.rxl58s9t7p.pdb.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\dotnet.a419ic67ma.js.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\ServiceRequestApp.Blazor.staticwebassets.runtime.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\ServiceRequestApp.Blazor.staticwebassets.endpoints.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\ServiceRequestApp.Blazor.dll
@@ -1111,10 +1105,6 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compr
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\0kybpg387i-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\mhp8b63jlt-{0}-tptq2av103-tptq2av103.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\e50hc4ucao-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\8bpbgjvhnj-{0}-hcmfem957h-hcmfem957h.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\diooq00i4w-{0}-rxl58s9t7p-rxl58s9t7p.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\kxxar3ryi4-{0}-a419ic67ma-a419ic67ma.gz
-C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\qn23faw9lc-{0}-0d3wfn24da-0d3wfn24da.gz
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\staticwebassets.build.json
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\staticwebassets.development.json
@@ -1125,3 +1115,13 @@ C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\Servi
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\refint\ServiceRequestApp.Blazor.dll
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\ServiceRequestApp.Blazor.pdb
 C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\ref\ServiceRequestApp.Blazor.dll
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.72glxa7x4x.wasm
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.mzyswli2wi.pdb
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\dotnet.d1rdtex398.js
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.72glxa7x4x.wasm.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\ServiceRequestApp.Blazor.mzyswli2wi.pdb.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\bin\Debug\net10.0\wwwroot\_framework\dotnet.d1rdtex398.js.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\8bpbgjvhnj-{0}-72glxa7x4x-72glxa7x4x.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\diooq00i4w-{0}-mzyswli2wi-mzyswli2wi.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\kxxar3ryi4-{0}-d1rdtex398-d1rdtex398.gz
+C:\GITHUB\ServiceRequestApp\src\ServiceRequestApp.Blazor\obj\Debug\net10.0\compressed\qn23faw9lc-{0}-9sy0pvqka2-9sy0pvqka2.gz
