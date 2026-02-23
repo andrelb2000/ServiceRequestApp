@@ -1,37 +1,87 @@
 ﻿@page "/"
-@inject ServiceRequestApp.Blazor.Services.ServiceRequestApi Api
 
+@using Microsoft.AspNetCore.SignalR.Client
+@using global::ServiceRequestApp.Blazor.Services
+@using global::ServiceRequestApp.Blazor.Models
+
+@inject ServiceRequestApi Api
+@inject NavigationManager Navigation
+@implements IAsyncDisposable
+
+@if (signalReceived) {
+    <div style="color: green; font-weight: bold;">
+        Signal received! Data updated.
+    </div>
+}
 <h3>Service Requests</h3>
 <button @onclick="Load">Load</button>
-
 @if (items != null) {
- <ul>
- @foreach (var item in items) {
- <li>@item.Title (@item.Status)</li>
- }
- </ul>
+    <table class="table table-striped table-bordered">
+        <thead>  <tr> <th>Title</th> <th>Status</th> </tr> </thead>
+        <tbody>
+            @foreach (var item in items)  {
+                <tr> <td>@item.Title</td> <td>@item.Status</td> </tr>
+            }
+        </tbody>
+    </table>
 }
-
 <h4>Create</h4>
+
 <input @bind="newTitle" placeholder="Title" />
 <input @bind="newDescription" placeholder="Description" />
 <button @onclick="Create">Create</button>
 
 @code {
- List<ServiceRequestApp.Blazor.Models.ServiceRequestDto>? items;
- string newTitle = "";
- string newDescription = "";
+    readonly string ApiBase = "http://localhost:5000";
+    string HubUrl => $"{ApiBase}/hubs/servicerequests";    
+    string newTitle = "";
+    string newDescription = "";
+    List<ServiceRequestDto>? items;
+    private HubConnection? connection;
+    private bool signalReceived = false;
+    // 🔹 Inicialização
+    protected override async Task OnInitializedAsync()    {
+        connection = new HubConnectionBuilder()
+            .WithUrl(HubUrl)
+            .WithAutomaticReconnect()
+            .Build();
 
- async Task Load()  {
- items = await Api.GetAllAsync();
- }
+        // Quando qualquer cliente criar algo,
+        // todos recarregam automaticamente
+        connection.On("RequestCreated", async () => {     
+            signalReceived = true;      
+            await Load();
+            await InvokeAsync(StateHasChanged);
+            _ = Task.Run(async () => {
+                await Task.Delay(3000);
+                signalReceived = false;
+                await InvokeAsync(StateHasChanged);
+            });
 
- async Task Create() {
-	 await Api.CreateAsync(new()  {
-	 Title = newTitle,
-	 Description = newDescription,
-	 Status = 0
-	 });
- await Load();
- }
+        }); 
+        await connection.StartAsync();
+    }
+    // 🔹 Load manual (continua funcionando)
+    async Task Load(){
+        items = await Api.GetAllAsync();
+    }
+    // 🔹 Create continua funcionando igual
+    async Task Create() {
+        await Api.CreateAsync(new(){
+            Title = newTitle,
+            Description = newDescription,
+            Status = 0
+        });
+        // opcional: limpar campos
+        newTitle = "";
+        newDescription = "";
+        // opcional: atualizar localmente
+        await Load();
+    }
+
+    // 🔹 Cleanup elegante
+    public async ValueTask DisposeAsync(){
+        if (connection is not null)
+            await connection.DisposeAsync();
+    }
 }

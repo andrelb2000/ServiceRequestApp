@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "ServiceRequestApp.Blazor",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-t0Q9AS70SmVUjI6iuRChsKpyTbUx2GBpVnt8/NlC7Ro=",
+    "hash": "sha256-85O77EIkAka9Mih7KHuoeqt6o9G1/viS8Z8HkN+AA5c=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.69poregybn.js"
@@ -89,9 +89,51 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "cache": "force-cache"
       },
       {
+        "virtualPath": "Microsoft.AspNetCore.Connections.Abstractions.wasm",
+        "name": "Microsoft.AspNetCore.Connections.Abstractions.9clppqavtv.wasm",
+        "integrity": "sha256-SfnwCQTZ51UmLAZrsv6kWU3PsBXJat8FRHNn/VGC0RU=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.Http.Connections.Client.wasm",
+        "name": "Microsoft.AspNetCore.Http.Connections.Client.3cwlfzvw5r.wasm",
+        "integrity": "sha256-82HAzVlwb7Ag88N3qqlZp8LPNDMSaihjozjcRjsTDS0=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.Http.Connections.Common.wasm",
+        "name": "Microsoft.AspNetCore.Http.Connections.Common.5efn1h5g53.wasm",
+        "integrity": "sha256-rYIPnuGlEh5OF+sotLY137XRe+kuQq8uyXsBAk6SUp8=",
+        "cache": "force-cache"
+      },
+      {
         "virtualPath": "Microsoft.AspNetCore.Metadata.wasm",
         "name": "Microsoft.AspNetCore.Metadata.a9671ymty2.wasm",
         "integrity": "sha256-biTrBrJa054hNcdzCQOwLJ2Cmj1VvpuWvclNN/cZo40=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.SignalR.Client.wasm",
+        "name": "Microsoft.AspNetCore.SignalR.Client.sdq1f63hs2.wasm",
+        "integrity": "sha256-0PJE6eMa2PhCaUompgFLMFxbLqclRs6Z3lIx9p0w4jE=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.SignalR.Client.Core.wasm",
+        "name": "Microsoft.AspNetCore.SignalR.Client.Core.ruaoh0ssd1.wasm",
+        "integrity": "sha256-DULV7Wdf62Tu+Wy8F2B4OLzWsKFvVy53DLpb1VBZ2kg=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.SignalR.Common.wasm",
+        "name": "Microsoft.AspNetCore.SignalR.Common.33cxqsl2lk.wasm",
+        "integrity": "sha256-b9XZnwyNnfABd7hI3qlzpNZ3/iIPOeql2xOXMPJYtMQ=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.AspNetCore.SignalR.Protocols.Json.wasm",
+        "name": "Microsoft.AspNetCore.SignalR.Protocols.Json.wvl2kpjdwv.wasm",
+        "integrity": "sha256-TOM/4yjFrmtMG/mvpENO2uUGgI1KS4WjyiKMzM/A6Mg=",
         "cache": "force-cache"
       },
       {
@@ -152,6 +194,12 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
         "virtualPath": "Microsoft.Extensions.Diagnostics.Abstractions.wasm",
         "name": "Microsoft.Extensions.Diagnostics.Abstractions.bzcztxg906.wasm",
         "integrity": "sha256-d80Yrv7sm2wjD3ko5EJACbiOzfpk095K50pCUnUIRwk=",
+        "cache": "force-cache"
+      },
+      {
+        "virtualPath": "Microsoft.Extensions.Features.wasm",
+        "name": "Microsoft.Extensions.Features.ueo71s0w5e.wasm",
+        "integrity": "sha256-Vgj+mE15z69ybirmlil+Ll2M8AaBfieIOIjKZQzZdx4=",
         "cache": "force-cache"
       },
       {
@@ -1242,16 +1290,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "ServiceRequestApp.Blazor.wasm",
-        "name": "ServiceRequestApp.Blazor.xv22elpm8q.wasm",
-        "integrity": "sha256-Hc2J0t7jGCl4zl3a+SJvrbdtnrJQvil8Ccl//pfAmZE=",
+        "name": "ServiceRequestApp.Blazor.6k9x53oe68.wasm",
+        "integrity": "sha256-pr9+8jTRmU9gqZmJScjW6dOL8cESCMMvImO66IjcVpQ=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "ServiceRequestApp.Blazor.pdb",
-        "name": "ServiceRequestApp.Blazor.uq02s618d7.pdb",
-        "integrity": "sha256-RvQ40y0VLg8kdwTTa5yY7hpoxxFiDLEV+RyRG90HSUg=",
+        "name": "ServiceRequestApp.Blazor.lmd34t6kkw.pdb",
+        "integrity": "sha256-QyD3twRH9PWWImFRUowRO5Ezmv1jJ7RSxBuDmi68fVU=",
         "cache": "force-cache"
       }
     ],

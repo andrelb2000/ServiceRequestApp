@@ -1,6 +1,35 @@
-# .NET Core / .NET 5+ / MAUI / Blazor
+# Build folders
 bin/
 obj/
-out/
-publish/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# DLLs
 *.dll
+
+# Executáveis
+*.exe
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Publish output
+publish/
+
+# OS files
+.DS_Store
+Thumbs.db
