@@ -5,7 +5,10 @@ namespace ServiceRequestApp.Maui;
 
 public partial class MainPage : ContentPage {
    private readonly HttpClient _httpClient;
+   // For Android/iOS emulator use this one
    //private const string ApiBase = "http://10.0.2.2:5000";
+   
+   // For Windows version use this one
    private const string ApiBase = "http://localhost:5000";
 
    public MainPage()  {
